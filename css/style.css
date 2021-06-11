@@ -1,0 +1,20 @@
+body {
+    background-color: rgba(194, 71, 163, 0.815);
+}
+.container {
+    background-color: rgba(112, 23, 82, 0.75);
+}
+.game-board {
+    background-color: rgba(255, 144, 246, 0.75);
+    grid-area: auto;
+}
+.play-field {  
+    height: 50px;
+    width: 50px;
+    background-color: rgb(255, 79, 79);
+    display: inline-block;
+}
+
+.header {
+    text-align: center;
+}
