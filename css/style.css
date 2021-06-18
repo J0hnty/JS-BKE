@@ -1,20 +1,42 @@
 body {
-    background-color: rgba(194, 71, 163, 0.815);
+    background-color: rgba(96, 238, 231, 0.815);
 }
 .container {
-    background-color: rgba(112, 23, 82, 0.75);
+    background-color: rgba(49, 153, 172, 0.75);
 }
+
 .game-board {
-    background-color: rgba(255, 144, 246, 0.75);
+    background-color: rgba(47, 200, 211, 0.75);
     grid-area: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    max-width: 500px;
+    
+
+    
+}
+
+.game-board > div 
+{
+    font-size: 56px;
 }
 .play-field {  
-    height: 50px;
-    width: 50px;
-    background-color: rgb(255, 79, 79);
-    display: inline-block;
+    
+    height: 150px;
+    width: 150px;
+    
+    background-color: rgb(205, 255, 253);
+    display: block;
+    border:solid black 2px;
+    text-align: center;
 }
 
 .header {
     text-align: center;
+}
+.player-one {
+
+}
+.player-two {
+   padding-left: 25px; 
 }
